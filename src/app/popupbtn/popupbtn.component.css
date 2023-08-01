@@ -1,0 +1,24 @@
+.btn-div{
+
+   
+   text-align: center;
+        
+}
+
+button{
+    border:1px solid #bfde10;
+    color: #fff;
+    height:40px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center; /* Horizontally center the error container */
+        align-items: center; 
+    position : relative;
+   
+}
+
+.ucstom-dialog-container {
+    background: rgba(0, 0, 0, 0.5);
+
+  }

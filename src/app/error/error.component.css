@@ -1,0 +1,155 @@
+
+    .main-div {
+        margin: 0; /* Remove default body margin */
+        height: auto; /* Set the body height to the full viewport height */
+        display: flex;
+        justify-content: center; /* Horizontally center the error container */
+        align-items: center; /* Vertically center the error container */
+        overflow-x:hidden;
+        overflow-y:hidden;
+         /* background: rgba(0, 0, 0, 0.50);  */
+      } 
+
+/* 
+.main-div {
+    width: 1440px;
+height: 851px;
+flex-shrink: 0;
+    display: flex;
+    justify-content: center;  Horizontally center the error container
+    align-items: center; Vertically center the error container
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+}  */
+
+.error-container {
+/* 
+    display: inline-flex;
+padding: 40px 80px;
+flex-direction: column;
+align-items: center;
+gap: 32px; */
+
+    
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 5px;
+    background: var(--shades-50, #FFF);
+
+    display: inline-flex;
+    padding: 40px 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;    
+}
+
+
+.error-icon {
+    /* width: 140px;
+    height: 126.36px;
+    background: #C2CED6; */
+
+    width: 140px;
+height: 126.364px;
+
+fill: var(--neutral-200, #C2CED6);
+
+}
+
+.error-message-plus-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.error-message-container{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+}
+
+.error-title {
+    color: var(--neutral-900, #29343D);
+  
+    /* 24 bold */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.error-message {
+    color: var(--neutral-500, #668399);
+
+    /* B2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    
+}
+
+.button-container {
+    /* justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex; */
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+}
+
+.try-again-button {
+    flex: 1;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+background: var(--primary-1800, #0233FF);
+}
+.try-again-button-text{
+    color: #FFF;
+
+/* B bold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.cancel-button {
+    flex: 1;
+    display: flex;
+    
+    width: 119px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+border: 1px solid var(--primary-1800, #0233FF);
+
+}
+.cancel-button-text{
+    color: var(--primary-1800, #0233FF);
+
+/* B bold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
